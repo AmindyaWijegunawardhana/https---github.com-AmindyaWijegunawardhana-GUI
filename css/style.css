@@ -105,7 +105,7 @@ header{
 .home{
   width: 100%;
   min-height: 100vh;
-  background: url('pharmacy-and-medical-business-background.jpg');
+  background-image: url('../pharmacy-and-medical-business-background.jpg');
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
@@ -146,6 +146,10 @@ header{
   display: grid;
   grid-template-columns: repeat(auto-fit,minmax(17rem,auto));
   gap: 1.5rem;
+  background-image: url('../pharmacy-and-medical-business-background.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
 }
 .about-img img{
   width: 80%;
