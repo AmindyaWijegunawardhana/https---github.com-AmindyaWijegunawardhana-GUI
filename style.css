@@ -145,6 +145,10 @@ header{
     display: grid;
     grid-template-columns: repeat(auto-fit,minmax(17rem,auto));
     gap: 1.5rem;
+    background-image: url('pharmacy-and-medical-business-background.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
 }
 .about-img img{
     width: 80%;
@@ -200,7 +204,7 @@ header{
 }
 .product-container .box .content span{
     padding: 0 0.1rem;
-    color: var(--bg-color);
+    color: black;
     background: var(--main-color);
     border-radius: 4px;
     font-weight: 500;
